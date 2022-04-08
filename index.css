@@ -1,0 +1,32 @@
+
+#navbarNavAltMarkup{
+    justify-content: end;
+    font-size: 14px;
+    color:white;
+    
+}  
+  
+.Contenedor{
+    font-family: GothamBlack; 
+}
+.Medio{
+    height: 60%;
+    background-image: url(https://bit.ly/3jaHTGL);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+    
+
+.carousel {
+    margin-left: 100px; 
+    margin-right: 200px;
+   }  
+
+#fotochica{
+    max-width: 160px;
+    height: 100px;
+    background-position: top;
+    z-index: -1;
+
+}
