@@ -1,0 +1,25 @@
+.Historia{
+    display: block;
+    width: 100%;
+    height: 480px;
+    background-image: url(https://bit.ly/3uZbNEJ);
+    background-size: cover;
+    
+}
+
+
+
+.tith{
+    display: flex;
+    position: relative;
+    color: antiquewhite;
+    justify-content: center;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+p{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}

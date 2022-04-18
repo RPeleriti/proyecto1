@@ -1,0 +1,93 @@
+.reglamento{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(163, 155, 144);
+    justify-content: center;
+}
+.Cuadrotitulo{
+    display:flex;
+    margin-top: 5px;
+    padding-top: 10px;
+
+}
+.Cuadropadre{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(163, 155, 144);
+    height: 430px;
+}
+
+.Cuadroizquierda{
+    width: 300px;
+    background-color: rgba(37, 7, 146);
+    height: 400px;
+    margin-top: 10px
+}
+.Cuadroderecha{
+    width: 600px;
+    background-color: rgb(37, 7, 146);
+    height: 400px;
+    margin-top: 10px;
+     
+}
+.Tituloinsc{
+padding-top: 6px;
+}
+.Requisitos{
+    margin-top: 40px;
+}
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    font-size: 18px;
+    }
+    ul.acorh li {
+    list-style: none;
+    }
+    ul.acorh li a {
+    display: block;
+    padding: 10px 10px 10px 20px;
+    background: rgb(129, 128, 128);
+    color: #eee;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid rgb(56, 54, 54);
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    ul.acorh li ul {
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: .3s all ease-in;
+    }
+    ul.acorh li li a {
+    padding: 10px 10px 10px 40px;
+    background: #999;
+    color: #000;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    ul.acorc li li:last-child a {
+    border-bottom: 0;
+    }
+    ul.acorh li:hover ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+    }
+    ul.acorh li a:hover {
+    background: #666;
+    color: #fff;
+    }
