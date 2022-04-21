@@ -19,16 +19,22 @@
 }
 
 .Cuadroizquierda{
-    width: 300px;
-    background-color: rgba(37, 7, 146);
-    height: 400px;
-    margin-top: 10px
+        width: 300px;
+        background-color: rgb(163, 155, 144);
+        height: 400px;
+        margin-top: 10px;
+        display: block;
+        overflow: hidden;
+        border: 1px solid black;
 }
 .Cuadroderecha{
     width: 600px;
     background-color: rgb(37, 7, 146);
     height: 400px;
     margin-top: 10px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
      
 }
 .Tituloinsc{
@@ -44,22 +50,25 @@ padding: 0;
 border: 0;
 }
 ul.acorh {
-    margin: 20px auto;
     padding: 0;
     list-style: none;
     width: 100%;
-    font-size: 18px;
-    }
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
     ul.acorh li {
     list-style: none;
+
     }
     ul.acorh li a {
     display: block;
     padding: 10px 10px 10px 20px;
     background: rgb(129, 128, 128);
     color: #eee;
-    border-bottom: 1px solid #000;
-    border-top: 1px solid rgb(56, 54, 54);
     text-decoration: none;
     box-sizing: border-box;
     }
@@ -70,18 +79,20 @@ ul.acorh {
     list-style: none;
     overflow: hidden;
     transition: .3s all ease-in;
+    
     }
     ul.acorh li li a {
     padding: 10px 10px 10px 40px;
     background: #999;
     color: #000;
-    font-size: 16px;
+    font-size: 12px;
     border: 0;
     border-bottom: 1px solid #ccc;
     box-sizing: border-box;
     }
     ul.acorc li li:last-child a {
     border-bottom: 0;
+    
     }
     ul.acorh li:hover ul {
     max-height: 300px;
